@@ -1,14 +1,13 @@
-// 2) ჯავასკრიპტის პროგრამა (გასტილული) რომელსაც აქვს ორი შესაყვანი ველი- ( გადასახადი, "tip" ) და გამოითლის შესაბამის რიცხვს,
+const first = document.getElementById("firstt");
+const second = document.getElementById("second");
+const third = document.getElementById("third");
 
-const firstInput = document.getElementById("firstinput").value;
-const secondInput = document.getElementById("secondinput").value;
-const p = document.getElementById("result");
+let all = [first,second,third]
 
-
-function check(){
-    if(!isNaN(firstInput) && !isNaN(secondInput)) {
-        const sum = firstInput + secondInput;
-        p.textContent = sum
+for(let i = 1; 1 > all.length; i++); {
+    const all = {
+        first: "კომპიტერი",
+        second: "მაუსი",
+        third: "კლავიატურა"
     }
 }
-
